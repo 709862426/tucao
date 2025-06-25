@@ -12,7 +12,7 @@ export class ComplainController {
 
   @Post('/create')
   async create(@Body() body: any) {
-    const { content, hotel, images } = body;
+    const { content, hotel, images, contact } = body;
     const { openid } = this.ctx.user;
     if (!content || content.length < 10) {
       return { success: false, message: '内容至少10字' };
@@ -21,6 +21,7 @@ export class ComplainController {
       openid,
       content,
       hotel,
+      contact,
       images,
     });
     return { success: true, data: result };

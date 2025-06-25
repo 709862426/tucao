@@ -17,6 +17,9 @@ export class Complain {
   content: string;
 
   @Column({ nullable: true })
+  contact: string;
+
+  @Column({ nullable: true })
   hotel: string;
 
   @Column('text', { nullable: true })

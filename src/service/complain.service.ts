@@ -12,6 +12,7 @@ export class ComplainService {
     openid: string;
     content: string;
     hotel?: string;
+    contact?: string;
     images?: string[];
   }) {
     const complain = this.complainRepo.create({
