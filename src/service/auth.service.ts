@@ -1,6 +1,6 @@
 // src/service/auth.service.ts
 import { Provide } from '@midwayjs/core';
-import { User } from '../entity/user.entity';
+import { User } from '../entity/user';
 import { Repository } from 'typeorm';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import axios from 'axios';

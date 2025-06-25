@@ -31,7 +31,7 @@ export class AuthMiddleware implements IMiddleware<Context, NextFunction> {
 
   // 默认匹配所有路径，排除部分白名单接口
   match(ctx: Context): boolean {
-    const whiteList = ['/api/login'];
+    const whiteList = ['/user/loginOrUpdateUser'];
     return !whiteList.some(path => ctx.path.startsWith(path));
   }
 
