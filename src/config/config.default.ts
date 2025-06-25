@@ -20,4 +20,17 @@ export default {
       },
     },
   },
+  upload: {
+    mode: 'file',
+    whitelist: ['.png', '.jpg', '.jpeg', '.gif', '.webp'],
+    fileSize: '10mb',
+  },
+  staticFile: {
+    dirs: {
+      public: {
+        prefix: '/public',
+        dir: 'public',
+      },
+    },
+  },
 } as MidwayConfig;
