@@ -11,7 +11,7 @@ export default {
         type: 'postgres',
         host: '116.204.111.77',
         port: 5432,
-        username: 'szkj',
+        username: 'postgres',
         password: 'szkj1234567890',
         database: 'chengdu',
         synchronize: false,
