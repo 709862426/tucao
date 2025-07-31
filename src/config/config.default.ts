@@ -9,15 +9,14 @@ export default {
     dataSource: {
       default: {
         type: 'postgres',
-        host: '192.168.1.7',
+        host: '116.204.111.77',
         port: 5432,
-        username: 'postgres',
-        password: 'szkj1234567890',
+        username: 'szkj',
+        password: '123456',
         database: 'chengdu',
-        synchronize: true, // 如果第一次使用，不存在表，有同步的需求可以写 true，注意会丢数据
+        synchronize: false,
         logging: false,
         entities: ['entity', '**/*.entity.{j,t}s'],
-      },
     },
   },
   upload: {
