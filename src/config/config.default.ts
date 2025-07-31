@@ -12,7 +12,7 @@ export default {
         host: '116.204.111.77',
         port: 5432,
         username: 'szkj',
-        password: '123456',
+        password: 'szkj1234567890',
         database: 'chengdu',
         synchronize: false,
         logging: false,
