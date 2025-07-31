@@ -17,6 +17,7 @@ export default {
         synchronize: false,
         logging: false,
         entities: ['entity', '**/*.entity.{j,t}s'],
+      },
     },
   },
   upload: {
