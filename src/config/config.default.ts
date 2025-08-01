@@ -9,10 +9,10 @@ export default {
     dataSource: {
       default: {
         type: 'postgres',
-        host: '116.204.111.77',
+        host: '8.137.87.230',
         port: 5432,
         username: 'postgres',
-        password: 'szkj1234567890',
+        password: 'postgres',
         database: 'chengdu',
         synchronize: false,
         logging: false,
