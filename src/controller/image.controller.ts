@@ -31,8 +31,7 @@ export class ImageController {
       return {
         success: true,
         url:
-          'https://3063-13-212-57-113.ngrok-free.app' +
-          `/public/uploads/${filename}`,
+          'https://taibao111.gis-zone.com/' + `/public/uploads/${filename}`,
       };
     }
   }
