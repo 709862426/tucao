@@ -7,8 +7,8 @@ import * as orm from '@midwayjs/typeorm';
 import * as staticServe from '@midwayjs/static-file';
 import * as upload from '@midwayjs/upload';
 
-// import { DefaultErrorFilter } from './filter/default.filter';
-// import { NotFoundFilter } from './filter/notfound.filter';
+import { DefaultErrorFilter } from './filter/default.filter';
+import { NotFoundFilter } from './filter/notfound.filter';
 import { ReportMiddleware } from './middleware/report.middleware';
 import { AuthMiddleware } from './middleware/auth.middleware';
 
@@ -34,6 +34,6 @@ export class MainConfiguration {
     // add middleware
     this.app.useMiddleware([ReportMiddleware, AuthMiddleware]);
     // add filter
-    // this.app.useFilter([NotFoundFilter, DefaultErrorFilter]);
+    this.app.useFilter([NotFoundFilter, DefaultErrorFilter]);
   }
 }
