@@ -30,8 +30,7 @@ export class ImageController {
       savedUrls.push(`/public/uploads/${filename}`);
       return {
         success: true,
-        url:
-          'https://taibao111.gis-zone.com/' + `/public/uploads/${filename}`,
+        url: `https://taibao111.gis-zone.com/public/uploads/${filename}`,
       };
     }
   }
