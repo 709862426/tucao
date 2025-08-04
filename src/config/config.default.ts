@@ -10,9 +10,9 @@ export default {
       default: {
         type: 'postgres',
         host: '8.137.87.230',
-        port: 5432,
+        port: 54392,
         username: 'postgres',
-        password: 'postgres',
+        password: 'wangyifan123456',
         database: 'chengdu',
         synchronize: false,
         logging: false,
