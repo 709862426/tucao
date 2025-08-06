@@ -1,29 +1,15 @@
-# my_midway_project
+# 吐槽小程序
 
-## QuickStart
+帮朋友做的小程序  使用腾讯专门的小程序云开发技术  只需要简单配置就可急速使用
 
-<!-- add docs here for user -->
+# 吐槽页面
 
-see [midway docs][midway] for more detail.
+<img width="306" height="690" alt="image" src="https://github.com/user-attachments/assets/498cd06e-e638-4f82-b87d-a08bca5bf557" />
 
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-$ npm start
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
+# 管理页面
 
 
-[midway]: https://midwayjs.org
+<img width="315" height="642" alt="image" src="https://github.com/user-attachments/assets/e4fd6170-9710-4c86-b257-e5e9f2424f1c" />
+
+
+
